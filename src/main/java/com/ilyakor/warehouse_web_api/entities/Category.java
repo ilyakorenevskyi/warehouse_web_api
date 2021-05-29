@@ -48,4 +48,9 @@ public class Category {
         this.name = name;
     }
 
+    public void copyInfo(Category category){
+        this.name =  category.name;
+        this.parentId = category.parentId;
+        this.description = category.description;;
+    }
 }
